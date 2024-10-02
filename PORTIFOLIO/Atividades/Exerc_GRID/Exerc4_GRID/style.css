@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+}
+.sidebar {
+    background-color: rgb(208, 163, 47);
+}
+.conteudo {
+    background-color: rgb(210, 54, 119);
+}

@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+.coluna1 {
+    background-color: rgb(33, 72, 84);
+}
+.coluna2 {
+    background-color: rgb(218, 30, 30);
+}

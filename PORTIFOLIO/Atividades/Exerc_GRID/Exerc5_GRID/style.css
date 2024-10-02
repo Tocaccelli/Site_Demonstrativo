@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main sidebar"
+        "footer footer footer";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+}
+.header {
+    grid-area: header;
+    background-color: rgb(230, 97, 31);
+}
+.nav {
+    grid-area: nav;
+    background-color: rgb(130, 236, 44);
+}
+.main {
+    grid-area: main;
+    background-color: rgb(152, 56, 243);
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: #fa2d2d;
+}
+.footer {
+    grid-area: footer;
+    background-color: rgb(234, 50, 206);
+}
